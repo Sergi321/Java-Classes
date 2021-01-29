@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(139, 172, 21);
+  font-family: "Potta One", cursive;
+}
+
+.game-title {
+  font-size: 2rem;
+  color: white;
+  margin: 5px;
+}
+
+.project-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 5rem;
+  color: rgb(190, 190, 190);
+}
+
+.project-div h1 {
+  font-size: 3rem;
+  border-bottom: 3px solid rgb(69, 202, 69);
+  color: rgb(190, 190, 190);
+  background: linear-gradient(rgb(82, 78, 78), rgb(27, 190, 27));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-div a {
+  margin-top: 10%;
+  color: rgb(97, 119, 17);
+}
+
+footer,
+footer a {
+  color: rgb(53, 97, 243);
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 70px;
+}
